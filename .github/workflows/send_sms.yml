@@ -26,7 +26,7 @@ jobs:
     - name: Send SMS
       env:
         account_sid: ${{ secrets.ACe030b767e282529de332d9e61ba5be94 }}
-        auth_token: ${{ secrets.TWILIO_AUTH_TOKEN }}
+        auth_token: ${{ secrets.478923d44ce35e1a282a260b5d3e2ad4 }}
       run: |
         python send_sms.py
         
